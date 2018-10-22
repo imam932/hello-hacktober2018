@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         btn_status = (Button) findViewById(R.id.btn_status);
         btn_calls = (Button) findViewById(R.id.btn_call);
 
+        // nav header menu chatting
         btn_chats.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // nav header menu sttatus
         btn_status.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // nav header menu panggilan
         btn_calls.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
